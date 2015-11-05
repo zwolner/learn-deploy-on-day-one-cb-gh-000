@@ -34,9 +34,9 @@ The structure of this project looks something like this:
 |   |__ fonts
 |   |   ├── some fonts
 ├── index.html
-├── profile.html
 └── students
-    └── student-name.html
+|   └── profile.html
+|   └── student-name.html
 ```
 
 ### Files you will need to alter:
@@ -58,7 +58,7 @@ The first thing you'll need to do is add your image assets.
 
 #### Add your Profile page
 
-  1. Copy the `profile.html` file into the `students` directory and rename it `your-name.html`. 
+  1. Copy the another students profile file into the `students` directory and rename it `your-name.html`. 
   2. Add in your cover and profile photo to the `img` directory
   3. Open up `your-name.html` and modify it with your information (links, bio etc).
      * Adding the images is a bit tricky! Take a look at the `styles.css` or use inspect element for an idea of where those images come from.
@@ -71,7 +71,7 @@ The first thing you'll need to do is add your image assets.
 
 #### Taking stock
 
-Now that you have everything locally, let's take stock of what we have. Take a look at `index.html` and `profile.html` in the browser. To do this: 
+Now that you have everything locally, let's take stock of what we have. Take a look at `index.html` and `student-name.html` in the browser. To do this: 
 
 * If you're working on a Mac, you can just find the file locally using Finder and click to view the webpage in Chrome. 
 * If you're working on Nitrous, it's a bit more involved: first push your changes to your GitHub fork, then download your GitHub repo to your computer as a zip file, unzip it and open up the HTML files locally. 
