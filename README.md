@@ -75,7 +75,7 @@ Now that you have everything locally, let's take stock of what we have. Take a l
 
 ## Deployment
 
-Once we merge in your Pull Request, your profile will be viewable on [students.learn.co](), but we want you to be able to show all your friends your new website. Thankfully, GitHub makes this easy.
+Once we merge in your Pull Request, your profile will be viewable on [students.learn.co](), but we want you to be able to show all your friends your new website RIGHT NOW. Thankfully, GitHub makes this easy.
 
   1. Create a new branch called `gh-pages`
   2. Push that branch up to your fork
