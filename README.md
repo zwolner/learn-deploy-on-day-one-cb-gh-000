@@ -53,8 +53,8 @@ Fork and clone this lab.
 The first thing you'll need to do is add your image assets.
 
   * Add two pictures to the `img` folder (they can be jpg or png files):
-    * A cover picture (named `student-name-cover.jpg/png`)
-    * A profile picture (name `student-name.jpg/png`)
+    * A cover picture (named `student-name-cover.jpg` or `student-name-cover.png`)
+    * A profile picture (name `student-name.jpg` or `student-name.png`)
 
 #### Add your Profile page
 
@@ -89,4 +89,4 @@ Once we merge in your Pull Request, your profile will be viewable on [students.l
   1. Create a new branch called `gh-pages`. Reminder: you can do this with `git co -b gh-pages`
   2. Push that branch up to your fork. Reminder: after staging and commiting your changes, you can do this with `git push`
   3. Go to GitHub and go to the Settings for your repository (on the right side bar)
-  4. Scroll down to the Github Pages Section. Take a look! You have a URL. For me (because my username is `jmburges`) it's [http://jmburges.github.io/learn-deploy-on-day-one-1]()
+  4. Scroll down to the Github Pages Section. Take a look! You have a URL. For me (because my username is `jmburges`) it's http://jmburges.github.io/learn-deploy-on-day-one-1
