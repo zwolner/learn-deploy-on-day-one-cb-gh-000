@@ -1,10 +1,12 @@
-# Deploy on Day One
+# Your first deployment
 
-Every time a new semester begins their journey through Learn, their first project is to create their own student profile page. We have already created a template, but you need to use your Git, HTML and CSS skills to submit an updated version of the site with your information.
+There is no better way to feel like a developer than by actually becoming one, which you do by shipping code. With everything you've learned thus far, with think you're ready for the challenge. In this lab, you'll make a change to the Learn website: you will be asked to add your information to our public student directory (visible to the world at http://students.learn.co) and put in motion the sequence of events to have your change go live in production. 
+
+We have already created a template, but you need to use your Git, HTML and CSS skills to submit an updated version of the site with your information. Here we go!
 
 ## Requirements
 
-Please collect the following content from your assigned student for their profile. This content doesn't have to be finalized, but you need something. They'll be using this content as the project evolves for their resume and other profiles online.
+You'll need the following information about yourself:
 
 * Name
 * Blog Url (if you have one)
@@ -42,42 +44,49 @@ The structure of this project looks something like this:
   * `css/styles.css`
   * `students/student-name.html`
 
-### Files you will need to add:
-  * Add two pictures to the `img` folder (they can be jpg or png files):
-    * A cover picture (named `student-name-cover.jpg/png`)
-    * A profile picture (name `student-name.jpg/png`)
-  * Add one HTML file to the `students/` folder. Use the other profiles or `profile.html` for reference. In fact, feel free to copy as much of the HTML from `profile.html` into the new file you've created (just don't rename / override that file, as that will cause you some git headaches).
-
 ## Getting Started
 
 Fork and clone this lab.
 
-### Individual Instructions
+#### Add your images
 
-Now that you have everything locally, let's take stock of what we have. Take a look at `index.html` and `profile.html` in the browser. You can do this many ways but one is by opening finder and right clicking on `index.html`. Then click on "Open with" then the name of your favorite browser. The other is in terminal just typing `open index.html`.
+The first thing you'll need to do is add your image assets.
 
-#### Add Profile
+  * Add two pictures to the `img` folder (they can be jpg or png files):
+    * A cover picture (named `student-name-cover.jpg/png`)
+    * A profile picture (name `student-name.jpg/png`)
+
+#### Add your Profile page
 
   1. Copy the `profile.html` file into the `students` directory and rename it `your-name.html`. 
   2. Add in your cover and profile photo to the `img` directory
-  3. Open up `your-name.html` and modify it with your information.
+  3. Open up `your-name.html` and modify it with your information (links, bio etc).
      * Adding the images is a bit tricky! Take a look at the `styles.css` or use inspect element for an idea of where those images come from.
 
 #### Add To The Index
 
   1. Open up `index.html`
-  2. copy one of the existing `div`s to make a new slot for you. Add in your information
+  2. Copy one of the existing `div`s to make a new slot for you. Add in your information
   3. Re-use the profile image from your profile page and link to your profile page
+
+#### Taking stock
+
+Now that you have everything locally, let's take stock of what we have. Take a look at `index.html` and `profile.html` in the browser. To do this: 
+
+* If you're working on a Mac, you can just find the file locally using Finder and click to view the webpage in Chrome. 
+* If you're working on Nitrous, it's a bit more involved: first push your changes to your GitHub fork, then download your GitHub repo to your computer as a zip file, unzip it and open up the HTML files locally. 
+
+You may need to cycle a few times until everything looks good. Once you're happy with it, you're ready to submit.
 
 #### Submit!
 
-  1. Submit a Pull Request back to us.
+  1. Easy, just submit a Pull Request back to us. We'll take a look ASAP and get your change merged and deployed.
 
 ## Deployment
 
 Once we merge in your Pull Request, your profile will be viewable on [students.learn.co](), but we want you to be able to show all your friends your new website RIGHT NOW. Thankfully, GitHub makes this easy.
 
-  1. Create a new branch called `gh-pages`
-  2. Push that branch up to your fork
+  1. Create a new branch called `gh-pages`. Reminder: you can do this with `git co -b gh-pages`
+  2. Push that branch up to your fork. Reminder: after staging and commiting your changes, you can do this with `git push`
   3. Go to GitHub and go to the Settings for your repository (on the right side bar)
   4. Scroll down to the Github Pages Section. Take a look! You have a URL. For me (because my username is `jmburges`) it's [http://jmburges.github.io/learn-deploy-on-day-one-1]()
