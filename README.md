@@ -72,3 +72,12 @@ Now that you have everything locally, let's take stock of what we have. Take a l
 #### Submit!
 
   1. Submit a Pull Request back to us.
+
+## Deployment
+
+Once we merge in your Pull Request, your profile will be viewable on [students.learn.co](), but we want you to be able to show all your friends your new website. Thankfully, GitHub makes this easy.
+
+  1. Create a new branch called `gh-pages`
+  2. Push that branch up to your fork
+  3. Go to GitHub and go to the Settings for your repository (on the right side bar)
+  4. Scroll down to the Github Pages Section. Take a look! You have a URL. For me (because my username is `jmburges`) it's [http://jmburges.github.io/learn-deploy-on-day-one-1]()
