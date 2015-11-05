@@ -52,7 +52,7 @@ Fork and clone this lab.
 
 The first thing you'll need to do is add your image assets.
 
-  * Add two pictures to the `img` folder (they can be jpg or png files):
+  * Add two pictures to the `assets/img` folder (they can be jpg or png files):
     * A cover picture (named `student-name-cover.jpg` or `student-name-cover.png`)
     * A profile picture (name `student-name.jpg` or `student-name.png`)
 
