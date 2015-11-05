@@ -34,9 +34,10 @@ The structure of this project looks something like this:
 |   |__ fonts
 |   |   ├── some fonts
 ├── index.html
-├── profile.html
 └── students
     └── student-name.html
+    └── profile.html
+
 ```
 
 ### Files you will need to alter:
@@ -58,7 +59,7 @@ The first thing you'll need to do is add your image assets.
 
 #### Add your Profile page
 
-  1. Copy the `profile.html` file into the `students` directory and rename it `your-name.html`. 
+  1. Copy another students `student-name.html` file and rename it to your name. 
   2. Double-check that you added your cover and profile photo to the `img` directory
   3. Open up `your-name.html` and modify it with your information (links, bio etc).
      * Adding the images is a bit tricky! Take a look at the `css/styles.css` or use inspect element for an idea of where those images come from.
