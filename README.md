@@ -87,7 +87,8 @@ You may need to cycle a few times until everything looks good. Once you're happy
 
 Once we merge in your Pull Request, your profile will be viewable on [students.learn.co](), but we want you to be able to show all your friends your new website RIGHT NOW. Thankfully, GitHub makes this easy.
 
-  1. Create a new branch called `gh-pages`. Reminder: you can do this with `git co -b gh-pages`
-  2. Push that branch up to your fork. Reminder: after staging and commiting your changes, you can do this with `git push`
-  3. Go to GitHub and go to the Settings for your repository (on the right side bar)
-  4. Scroll down to the Github Pages Section. Take a look! You have a URL. For me (because my username is `jmburges`) it's http://jmburges.github.io/learn-deploy-on-day-one-1
+  1. Delete the `CNAME` file and commit that change.
+  2. Create a new branch called `gh-pages`. Reminder: you can do this with `git co -b gh-pages`
+  3. Push that branch up to your fork. Reminder: after staging and commiting your changes, you can do this with `git push`
+  4. Go to GitHub and go to the Settings for your repository (on the right side bar)
+  5. Scroll down to the Github Pages Section. Take a look! You have a URL. For me (because my username is `jmburges`) it's http://jmburges.github.io/learn-deploy-on-day-one-1
