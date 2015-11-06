@@ -131,6 +131,14 @@ a:visited {
   background-image: url("../assets/img/mat-balez.jpeg");
 }
 
+#mathieu-balez-cover {
+  background-image: url("../assets/img/mathieu-balez-cover.jpeg");
+}
+
+#mathieu-balez-card {
+  background-image: url("../assets/img/mathieu-balez.jpeg");
+}
+
 .student-card a {
   display: block;
   height: 400px;

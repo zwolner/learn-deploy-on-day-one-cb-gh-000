@@ -35,8 +35,9 @@ The structure of this project looks something like this:
 |   |   ├── some fonts
 ├── index.html
 └── students
-|   └── profile.html
-|   └── student-name.html
+    └── student-name.html
+    └── profile.html
+
 ```
 
 ### Files you will need to alter:
@@ -52,16 +53,16 @@ Fork and clone this lab.
 
 The first thing you'll need to do is add your image assets.
 
-  * Add two pictures to the `img` folder (they can be jpg or png files):
-    * A cover picture (named `student-name-cover.jpg/png`)
-    * A profile picture (name `student-name.jpg/png`)
+  * Add two pictures to the `assets/img` folder (they can be jpg or png files):
+    * A cover picture (named `student-name-cover.jpg` or `student-name-cover.png`)
+    * A profile picture (name `student-name.jpg` or `student-name.png`)
 
 #### Add your Profile page
 
-  1. Copy the another students profile file into the `students` directory and rename it `your-name.html`. 
-  2. Add in your cover and profile photo to the `img` directory
+  1. Copy another students `student-name.html` file and rename it to your name. 
+  2. Double-check that you added your cover and profile photo to the `img` directory
   3. Open up `your-name.html` and modify it with your information (links, bio etc).
-     * Adding the images is a bit tricky! Take a look at the `styles.css` or use inspect element for an idea of where those images come from.
+     * Adding the images is a bit tricky! Take a look at the `css/styles.css` or use inspect element for an idea of where those images come from.
 
 #### Add To The Index
 
@@ -71,7 +72,7 @@ The first thing you'll need to do is add your image assets.
 
 #### Taking stock
 
-Now that you have everything locally, let's take stock of what we have. Take a look at `index.html` and `student-name.html` in the browser. To do this: 
+Now that you have everything locally, let's take stock of what we have. Take a look at `index.html` and `profile.html` in the browser. To do this: 
 
 * If you're working on a Mac, you can just find the file locally using Finder and click to view the webpage in Chrome. 
 * If you're working on Nitrous, it's a bit more involved: first push your changes to your GitHub fork, then download your GitHub repo to your computer as a zip file, unzip it and open up the HTML files locally. 
@@ -89,4 +90,4 @@ Once we merge in your Pull Request, your profile will be viewable on [students.l
   1. Create a new branch called `gh-pages`. Reminder: you can do this with `git co -b gh-pages`
   2. Push that branch up to your fork. Reminder: after staging and commiting your changes, you can do this with `git push`
   3. Go to GitHub and go to the Settings for your repository (on the right side bar)
-  4. Scroll down to the Github Pages Section. Take a look! You have a URL. For me (because my username is `jmburges`) it's [http://jmburges.github.io/learn-deploy-on-day-one-1]()
+  4. Scroll down to the Github Pages Section. Take a look! You have a URL. For me (because my username is `jmburges`) it's http://jmburges.github.io/learn-deploy-on-day-one-1
