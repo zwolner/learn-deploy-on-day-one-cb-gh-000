@@ -89,6 +89,6 @@ Once we merge in your Pull Request, your profile will be viewable on [students.l
 
   1. Delete the `CNAME` file and commit that change. Reminder: you can delete a file with `rm CNAME`. Make sure you `git add .`, then `git commit -m "removing CNAME"`, then `git push`.
   2. Create a new branch called `gh-pages`. Reminder: you can do this with `git co -b gh-pages`
-  3. Push that branch up to your fork. Reminder: after staging and commiting your changes, you can do this with `git push`
+  3. Due to the process involved with forking, you will need to force push to GitHub. Force push `gh-pages` to GitHub. Reminder: after staging and commiting your changes, you can do this with `git push -f`
   4. Go to GitHub and go to the Settings for your repository (on the right side bar)
   5. Scroll down to the Github Pages Section. Take a look! You have a URL. For me (because my username is `jmburges`) it's http://jmburges.github.io/learn-deploy-on-day-one-1
