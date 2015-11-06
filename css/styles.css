@@ -139,6 +139,15 @@ a:visited {
   background-image: url("../assets/img/mathieu-balez.jpeg");
 }
 
+#diane-vu-cover {
+  background-image: url("../assets/img/diane-vu-cover.jpg");
+}
+
+#diane-vu-card {
+  background-image: url("../assets/img/diane-vu.jpg");
+}
+
+
 .student-card a {
   display: block;
   height: 400px;
