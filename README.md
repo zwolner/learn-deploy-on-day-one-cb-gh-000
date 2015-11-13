@@ -85,7 +85,7 @@ You may need to cycle a few times until everything looks good. Once you're happy
 
 ## Deployment
 
-Once we merge in your Pull Request, your profile will be viewable on [students.learn.co](), but we want you to be able to show all your friends your new website RIGHT NOW. Thankfully, GitHub makes this easy.
+Once we merge in your Pull Request, your profile will be viewable on [http://students.learn.co](http://students.learn.co), but we want you to be able to show all your friends your new website RIGHT NOW. Thankfully, GitHub makes this easy.
 
   1. Delete the `CNAME` file and commit that change. Reminder: you can delete a file with `rm CNAME`. Make sure you `git add .`, then `git commit -m "removing CNAME"`, then `git push`.
   2. Create a new branch called `gh-pages`. Reminder: you can do this with `git co -b gh-pages`
