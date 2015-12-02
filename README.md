@@ -92,3 +92,5 @@ Once we merge in your Pull Request, your profile will be viewable on [http://stu
   3. Due to the process involved with forking, you will need to force push to GitHub. Force push `gh-pages` to GitHub. Reminder: after staging and commiting your changes, you can do this with `git push -f`
   4. Go to GitHub and go to the Settings for your repository (on the right side bar)
   5. Scroll down to the Github Pages Section. Take a look! You have a URL. For me (because my username is `jmburges`) it's http://jmburges.github.io/learn-deploy-on-day-one-1
+
+<a href='https://learn.co/lessons/learn-deploy-on-day-one' data-visibility='hidden'>View this lesson on Learn.co</a>
