@@ -83,14 +83,5 @@ You may need to cycle a few times until everything looks good. Once you're happy
 
   1. Easy, just submit a Pull Request back to us. We'll take a look ASAP and get your change merged and deployed.
 
-## Deployment
-
-Once we merge in your Pull Request, your profile will be viewable on [http://students.learn.co](http://students.learn.co), but we want you to be able to show all your friends your new website RIGHT NOW. Thankfully, GitHub makes this easy.
-
-  1. Delete the `CNAME` file and commit that change. Reminder: you can delete a file with `rm CNAME`. Make sure you `git add .`, then `git commit -m "removing CNAME"`, then `git push`.
-  2. Create a new branch called `gh-pages`. Reminder: you can do this with `git co -b gh-pages`
-  3. Due to the process involved with forking, you will need to force push to GitHub. Force push `gh-pages` to GitHub. Reminder: after staging and commiting your changes, you can do this with `git push -f`
-  4. Go to GitHub and go to the Settings for your repository (on the right side bar)
-  5. Scroll down to the Github Pages Section. Take a look! You have a URL. For me (because my username is `jmburges`) it's http://jmburges.github.io/learn-deploy-on-day-one-1
 
 <a href='https://learn.co/lessons/learn-deploy-on-day-one' data-visibility='hidden'>View this lesson on Learn.co</a>
