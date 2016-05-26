@@ -68,16 +68,17 @@ The first thing you'll need to do is add your image assets.
    
   It should look something like thie 
 
-  ```css
-    #firstname-lastname-cover {
-      background-image: url("link to my imgur cover photo");
-    }
+```css
+  #firstname-lastname-cover {
+    background-image: url("link to my imgur cover photo");
+  }
 
-    #firstname-lastname-card {
-      background-image: url("link to my imgur card photo");
-    }
-   ```
+  #firstname-lastname-card {
+    background-image: url("link to my imgur card photo");
+  }
 
+```
+   
 #### Add your Profile page
 
   1. Copy another students `student-name.html` file and rename it to your name.
@@ -102,3 +103,5 @@ You may need to cycle a few times until everything looks good. Once you're happy
 #### Submit!
 
   1. Easy, just submit a Pull Request back to us. We'll take a look ASAP and get your change merged and deployed.
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/learn-deploy-on-day-one' title='Your first deployment'>Your first deployment</a> on Learn.co and start learning to code for free.</p>
