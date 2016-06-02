@@ -96,7 +96,7 @@ The first thing you'll need to do is add your image assets.
 Now that you have everything locally, let's take stock of what we have. Take a look at `index.html` and `profile.html` in the browser. To do this:
 
 * If you're working on a Mac, you can just find the file locally using Finder and click to view the webpage in Chrome.
-* If you're working on Nitrous, it's a bit more involved: first push your changes to your GitHub fork, then download your GitHub repo to your computer as a zip file, unzip it and open up the HTML files locally.
+* If you're working on the Learn IDE, you can right-click the file in the filetree and select "Open in Browser".
 
 You may need to cycle a few times until everything looks good. Once you're happy with it, you're ready to submit.
 
