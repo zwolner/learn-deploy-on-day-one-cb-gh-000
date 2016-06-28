@@ -82,8 +82,7 @@ The first thing you'll need to do is add your image assets.
 #### Add your Profile page
 
   1. Copy another students `student-name.html` file and rename it to your name.
-  2. Double-check that you added your cover and profile photo to the `img` directory
-  3. Open up `your-name.html` and modify it with your information (links, bio etc).
+  2. Open up `your-name.html` and modify it with your information (links, bio etc).
 
 #### Add To The Index
 
@@ -105,3 +104,5 @@ You may need to cycle a few times until everything looks good. Once you're happy
   1. Easy, just submit a Pull Request back to us. We'll take a look ASAP and get your change merged and deployed.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/learn-deploy-on-day-one' title='Your first deployment'>Your first deployment</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/learn-deploy-on-day-one'>Deploy Your Profile Page</a> on Learn.co and start learning to code for free.</p>
