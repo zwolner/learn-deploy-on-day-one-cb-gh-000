@@ -66,7 +66,7 @@ The first thing you'll need to do is add your image assets.
    * Head to the `css/styles.css` file.
    * check out some students css in the file to see what you'll need to do.
    
-  It should look something like thie 
+  It should look something like this 
 
 ```css
   #firstname-lastname-cover {
@@ -105,3 +105,5 @@ You may need to cycle a few times until everything looks good. Once you're happy
   1. Easy, just submit a Pull Request back to us. We'll take a look ASAP and get your change merged and deployed.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/learn-deploy-on-day-one' title='Your first deployment'>Your first deployment</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/learn-deploy-on-day-one'>Deploy Your Profile Page</a> on Learn.co and start learning to code for free.</p>
