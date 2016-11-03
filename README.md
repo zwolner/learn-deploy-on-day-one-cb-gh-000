@@ -82,8 +82,7 @@ The first thing you'll need to do is add your image assets.
 #### Add your Profile page
 
   1. Copy another students `student-name.html` file and rename it to your name.
-  2. Double-check that you added your cover and profile photo to the `img` directory
-  3. Open up `your-name.html` and modify it with your information (links, bio etc).
+  2. Open up `your-name.html` and modify it with your information (links, bio etc).
 
 #### Add To The Index
 
